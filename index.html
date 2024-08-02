@@ -1,1 +1,843 @@
-CLOSED
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>UV Netware</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="all">
+  <meta name="description" content="Transform Business Horizons - Explore 75+ Business Services and Solutions">
+  <meta name="keywords" content="software,licenses,business,services,uv,netware,solutions,company,app,website,development,branding,code,startup,main">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UV Netware">
+  <meta property="og:description" content="Transform your Business - Explore 75+ Business Services and Solutions">
+  <meta property="og:url" content="https://uvnetware.com">
+  <meta property="og:site_name" content="UV Netware">
+  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/washubcom.appspot.com/o/PicsArt_04-14-03.53.46.png?alt=media&token=901bc958-8bdf-43d0-a217-ec6fa970da1b" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.5.0/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit&display=swap">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(-115deg, #000, #000, #304ffe);
+      color: #000;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(30deg, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575), #304ffe);
+      color: #fff;
+      padding-top: 9.75px;
+      margin: 12.75px;
+      border-radius: 15px;
+      padding-bottom: 9.75px;
+      padding-left: 15px;
+      padding-right: 21px;
+      display: grid;
+      font-weight: Bold;
+      grid-template-columns: 1fr 3fr;
+      gap: 15px;
+      align-items: center;
+      z-index: 1000;
+      border-bottom: 3.75px solid #304ffe;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+    }
+    nav ul li {
+      margin-right: 21.75px;
+      position: relative;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      position: relative;
+      font-weight: 475;
+      font-size: 1.075rem;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+    nav a:after {
+      content: '';
+      position: absolute;
+      bottom: -7.45px;
+      left: 0;
+      width: 0;
+      border-radius: 12px;
+      height: 1.75px;
+      background-color: #00bfa5;
+      transition: width 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bfa5;
+      animation: fadeInUp 0.3s;
+    }
+    nav a:hover:after {
+      width: 100%;
+    }
+    .services:hover .sub-menu {
+      display: block;
+      animation: fadeInDown 0.45s;
+    }
+    .sub-menu {
+      display: none;
+      position: absolute;
+      padding-bottom: 9px;
+      background-color: rgba(0, 0, 0, 0.575);
+      box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(4.75px);
+      border-radius: 12px;
+      animation: bounceIn 0.5s;
+      width: 215px;
+      border-bottom: 3px solid #304ffe;
+    }
+    .sub-menu li {
+      display: block;
+      padding: 9px;
+    }
+    .sub-menu li:last-child {
+      border-bottom: none;
+    }
+    .fa {
+      margin-right: 15px;
+    }
+    #welcome-section {
+      display: flex;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      padding-left: 45px;
+      padding-right: 45px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-family: 'Silkscreen', monospace;
+    }
+    #welcome-text {
+      font-size: 1.75em;
+      font-weight: bold;
+      text-align: center;
+      margin: 15px;
+      letter-spacing: 1px;
+      font-family: 'Outfit', sans-serif;
+    }
+    #company {
+      color: #304ffe;
+      font-size: 1.45em;
+      animation: fade 3s infinite alternate;
+    }
+    r0 {
+      color: #fff;
+      font-size: 1.3em;
+    }
+    p0 {
+      color: #304ffe;
+      font-size: 1em;
+      font-family: 'Silkscreen', monospace;
+    }
+    #random-text {
+      font-size: 1.45em;
+      overflow: hidden;
+      margin-top: 9px;
+      white-space: nowrap;
+      display: inline-block;
+      border-right: 0.45em solid #00bfa5;
+      font-family: 'Outfit', sans-serif;
+      animation: blink 1s infinite;
+    }
+    @keyframes fade {
+      0%, 100% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+    @keyframes blink {
+      0%, 100% {
+        border-color: transparent;
+      }
+      50% {
+        border-color: #00bfa5;
+      }
+    }
+    .card {
+      margin-bottom: 30px;
+      margin-left: 13.75px;
+      margin-right: 13.75px;
+      align-items: center;
+      padding-top: 15px;
+      border-radius: 30px;
+      color:#304ffe;
+      justify-content: center;
+      font-size: 21.75px;
+      background-color: rgba(0, 0, 21.75, 0.9);
+      flex-direction: column;
+      display: flex;
+      animation: bounceIn 0.5s;
+      border-right: 5.75px solid #fff;
+      border-bottom: 0.12px solid #fff;
+      border-top: 0.12px solid #fff;
+      border-left: 0.12px solid #fff;
+    }
+    .card img {
+      width: 75px;
+      height: 75px;
+    }
+    .card-body {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+    .card-title {
+      text-align: center;
+      font-family: 'Silkscreen', monospace;
+    }
+    .container {
+        padding: 15px;
+    }
+    @media (min-width: 575px) {
+      .card {
+        width: 21.75%;
+      }
+      .card-container {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    h1 {
+        color: #304ffe;
+        text-align: center;
+        font-family: 'Silkscreen', monospace;
+        letter-spacing: 1px;
+        font-size: 21px;
+    }
+    z {
+        color: #EEEEEE;
+        font-family: 'Outfit', sans-serif;
+        letter-spacing: 0.75px;
+        font-size: 15px;
+    }
+    .info {
+        justify-content: center;
+        padding: 30px;
+        text-align: center;
+        background: #121212;
+    }
+    .art {
+        justify-content: center;
+        padding: 30px;
+        text-align: center;
+    }
+    .review-content {
+        width: 52.75%;
+        padding: 21px;
+        text-align: center;
+        margin: auto;
+        display: block;
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.715);
+        border-bottom: 0.15px solid #fff;
+        border-top: 0.15px solid #fff;
+        border-right: 0.15px solid #fff;
+        border-left: 0.15px solid #fff;
+    }
+    .scroll-class0 {
+        background: #ffffff;
+        padding: 15.75px;
+        color: #304ffe;
+        margin-bottom: 4.75px;
+        font-size: 15.75px;
+        text-align: center;
+        font-family: 'Silkscreen', monospace;
+    }
+    .scroll-class1 {
+        background: #121212;
+        padding: 15.75px;
+        color: #304ffe;
+        margin-bottom: 45px;
+        font-size: 15.75px;
+        text-align: center;
+        font-family: 'Silkscreen', monospace;
+    }
+    .done {
+        padding: 21px;
+    }
+    .numeric {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-size: 30px;
+        margin-bottom: 12px;
+        font-family: 'Silkscreen', monospace;
+        color: #EEEEEE;
+    }
+    p {
+        font-size: 21px;
+        color: #304ffe;
+        font-family: 'Outfit', sans-serif;
+    }
+    u1 {
+        font-size: 15px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-lg,
+    .col-md {
+        flex: 0 0 calc(33.333% - 15px);
+        max-width: calc(33.333% - 15px);
+        margin-bottom: 30px;
+        background: #000;
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.75);
+        animation: bounceIn 0.5s;
+        border-bottom: 5.75px solid #fff;
+        border-top: 0.1px solid #fff;
+        border-right: 0.15px solid #fff;
+        border-left: 0.15px solid #fff;
+    }
+    @media (max-width: 745px) {
+        .col-lg,
+        .col-md {
+            flex: 0 0 calc(50% - 15px);
+            max-width: calc(50% - 15px);
+        }
+    }
+    @media (max-width: 415px) {
+        .col-lg,
+        .col-md {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 1000;
+    }
+    .whatsapp-button img {
+      width: 52.515px;
+      height: 52.515px;
+      transition: transform 0.175s ease-in-out;
+    }
+    .whatsapp-button:hover img {
+      transform: scale(1.25);
+    }
+    .slider-container {
+      margin: 15px;
+      overflow: hidden;
+    }
+    .slider {
+      display: flex;
+      transition: transform 0.515s ease-in-out;
+    }
+    .review {
+      min-width: 100%;
+    }
+    .spacer {
+        height: 45px;
+    }
+    .footer-div0 {
+        justify-content: center;
+        padding: 30px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 12px;
+        text-align: center;
+        background: linear-gradient(-115deg, #151515, #000);
+        border-radius: 21px;
+    }
+    .link {
+        color: #304ffe;
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s;
+    }
+    .link::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #00bfa5;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+    .link:hover {
+        color: #00bfa5;
+    }
+    .link:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    footer {
+      background: linear-gradient(-90deg, #212121, #000);
+      padding-bottom: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .footer-section {
+      flex: 1;
+      margin: 12px;
+      text-align: left;
+      animation: slideIn 1s ease-in-out;
+    }
+    .footer-section h2 {
+      color: #304ffe;
+      font-size: 1.45em;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 12px;
+      margin-right: 15px;
+      font-family: 'Silkscreen', monospace;
+    }
+    .footer-links {
+      list-style-type: none;
+      padding: 0;
+    }
+    .social-icons {
+      padding: 0px;
+      display: flex;
+    }
+    .icon {
+      margin-top: 1.45px;
+      padding: 0px;
+    }
+    .footer-links li, .social-icons li {
+      position: relative;
+      margin-bottom: 7.5px;
+      overflow: hidden;
+    }
+    .footer-links a, .social-icons a {
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.315s ease;
+    }
+    .footer-links a:before, .social-icons a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0px;
+      background-color: #00bfa5;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.315s ease;
+    }
+    .footer-links a:hover, .social-icons a:hover {
+      color: #00bfa5;
+    }
+    .footer-links a:hover:before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    .copyright {
+      margin-top: 12px;
+      color: #757575;
+      font-size: 12px;
+      animation: fadeIn 1s ease-in-out;
+      text-align: center;
+    }
+    @media screen and (max-width: 175px) {
+      .footer-container {
+        flex-direction: column;
+      }
+      .footer-section {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .contact-info {
+        color: #304ffe;
+    }
+    .contact-info p {
+        margin: 0;
+        line-height: 1.15;
+    }
+    .contact-info .icon {
+        margin-right: 15px;
+    }
+    .contact-info .contact-item {
+        display: flex;
+        margin-bottom: 9px;
+    }
+    .contact-info a {
+        text-decoration: none;
+        color: #304ffe;
+        font-size: 1em;
+        transition: color 0.3s ease-in-out;
+    }
+    .contact-info a:hover{
+        color: #fff;
+    }
+    .footer-div1 {
+        text-align: center;
+        justify-content: center;
+        padding: 30px;
+        margin: 30px;
+        background: linear-gradient(-115deg, #151515, #000);
+        border-radius: 21px;
+    }
+    .content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-container,
+    .text-container {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    video {
+        width: 100%;
+        height: auto;
+    }
+    .text-container {
+        padding: 21px;
+        text-align: left;
+    }
+    @media (min-width: 775px) {
+        .video-container,
+        .text-container {
+          flex: 1;
+          max-width: 50%;
+        }
+        .text-container {
+          padding: 30px;
+        }
+        video {
+          border-radius: 115px;
+        }
+    }
+    video {
+          border-radius: 51.75px;
+          border-right: 9px solid #fff;
+          border-bottom: 3px solid #fff;
+          border-top: 3px solid #fff;
+          border-left: 3px solid #fff;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://firebasestorage.googleapis.com/v0/b/washubcom.appspot.com/o/PicsArt_04-14-03.53.46.png?alt=media&token=901bc958-8bdf-43d0-a217-ec6fa970da1b" alt="UV Netware" style="width: 45px; height: 45px;">
+    </div>
+    <nav>
+      <ul>
+        <li class="services">
+          <a href="/services" class="hvr-bob">Services</a>
+          <ul class="sub-menu animate__animated animate__fadeOut">
+            <li><a href="/services">Business Marketing</a></li>
+            <li><a href="/services">Mobile Apps</a></li>
+            <li><a href="/services">Finance Services</a></li>
+            <li><a href="/services">Logo Services</a></li>
+            <li><a href="/services">Register Company</a></li>
+            <li><a href="/services">Software</a></li>
+            <li><a href="/services">Need Website</a></li>
+        <li><a href="/services">More Solutions</a></li>
+          </ul>
+        </li>
+        <li><a href="/fi" class="hvr-bob">Payment</a></li>
+        <li><a href="/contact" class="hvr-bob">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="welcome-section">
+    <div id="welcome-text">
+      <span id="greeting">Hey! We are</span> - <span id="company" style="font-family: 'Silkscreen', monospace;">UV Netware</span> Pvt Ltd
+    </div>
+    <div id="random-text"></div>
+  </section>
+  <h1>Keys of Optimization</h1>
+  <div class="container">
+  <div class="card-container">
+    <div class="card">
+      <img src="https://cdn0.iconfinder.com/data/icons/business-381/500/business-work_11-512.png" alt="KEY_1" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">We Value & Understand your Desires</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://cdn0.iconfinder.com/data/icons/business-381/500/business-work_6-512.png" alt="KEY_2" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Providing Excellent for your Business</h5>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://cdn0.iconfinder.com/data/icons/business-381/500/business-work_3-512.png" alt="KEY_3" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Execute to Scale & Transform your Business</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="info">
+    <h1>Meet UV Netware</h1>
+    <z>UV Netware recognizes the indispensable role of mobile apps, websites, logos, and essential services like banking and legal documentation for businesses. Unlike many service providers who exploit this necessity by overcharging, we prioritize the judicious use of funds. We firmly believe that financial resources, whether individual or corporate, should be allocated efficiently and directed towards essential needs. Our commitment lies in assisting businesses across diverse sectors by minimizing the costs associated with crucial services. In offering the most competitive pricing in India, we steadfastly uphold the highest standards in the services we deliver. Our dedication to security in technology services sets us apart, and we guarantee an unparalleled level of quality at a fraction of the cost compared to other solutions providers, with savings of up to 30 times. Our focus is on working for the advancement and requirements of your business, emphasizing growth over mere financial gains. Recognizing the common pitfalls faced by startups and businesses, such as the absence of technology services, guidance, and proper documentation, we are committed to providing value that significantly contributes to your success.</z>
+</div>
+<div class="art">
+    <h1>Numeric Glimpse</h1>
+    <section id="glimpse" class="done">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>515+</h3>
+                        <p>Apps Developed</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>300+</h3>
+                        <p>Financial Services Provided</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>9000+</h3>
+                        <p>Code Solutions</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>145+</h3>
+                        <p>Companies Registered</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>900+</h3>
+                        <p>Logos Designed</p>
+                    </div>
+                </div>
+                <div class="col-lg col-md">
+                    <div class="numeric">
+                        <h3>4500+</h3>
+                        <p>Satisfied Customers</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+</div>
+<div class="scroll-class0"><marquee behavior="scroll0" direction="left" id="scroll-txt0"></marquee></div>
+<div class="scroll-class1"><marquee behavior="scroll1" direction="right" id="scroll-txt1"></marquee></div>
+<h1>Reviews By Leading Brands</h1>
+<div class="review-content">
+    <div class="slider-container">
+  <div class="slider">
+    <div class="review">
+      <r0>"Exceptional service! UV Netware's deep understanding of our business needs sets them apart. They go beyond the ordinary, providing tailored solutions that have significantly improved our operations."</r0>
+      <p0>OpenAI</p0>
+    </div>
+    <div class="review">
+      <r0>"UV Netware is the epitome of excellence. Their tech services are cutting-edge, and the fact that they offer such high-quality solutions at a fraction of the cost is mind-blowing. Highly recommended!"</r0>
+      <p0>blk water</p0>
+    </div>
+    <div class="review">
+      <r0>"Efficiency redefined! UV Netware's seamless integration of business and tech services has streamlined our processes and boosted productivity. Their solutions are not just effective but transformative."</r0>
+      <p0>Retool</p0>
+    </div>
+    <div class="review">
+      <r0>"They know their stuff! UV Netware's team is super skilled in business and tech services. We always turn to them for any business solutions we need."</r0>
+      <p0>Netflix</p0>
+    </div>
+    <div class="review">
+      <r0>"The perfect partner for growth! UV Netware's solutions are like a roadmap for the businesses wanting to scale up. We experienced hassle-free expansion with their expert guidance."</r0>
+      <p0>Github</p0>
+    </div>
+  </div>
+</div>
+</div>
+<div class="spacer"></div>
+<div class="footer-div0">
+    <h1>Why are our services priced so low?</h1>
+    <z>UV Netware recognizes the essential nature of mobile apps, websites, logos, and vital business services, including banking and legal documentation, for any enterprise. Unlike many business service providers who exploit this necessity by charging more than the actual cost, we at UV Netware prioritize the value of funds. We believe that funds, whether owned by individuals or companies, should be utilized judiciously and directed towards genuine needs. Our commitment lies in assisting businesses of all sizes by significantly reducing the costs associated with essential services. In India, where we offer our services at the most competitive prices, we uphold unwavering standards without compromise. At UV Netware, we not only prioritize affordability but also ensure the highest level of security for our clients. We proudly guarantee that the quality of our services, coupled with the cost advantage we provide, is unparalleled in the industry, offering a level of excellence that is 30 times more cost-effective than comparable alternatives.<z>
+</div>
+<div class="footer-div1">
+  <h1>CONTACT</h1>
+  <div class="content-wrapper">
+      <div class="video-container">
+          <video autoplay loop muted>
+              <source src="https://firebasestorage.googleapis.com/v0/b/uvnetware.appspot.com/o/Be%20An%20Entrepreneur.mp4?alt=media&token=bb902a83-ef83-44f2-b218-dbef96edd3dc" type="video/mp4">
+              Intro Video Error.
+          </video>
+      </div>
+      <div class="text-container">
+          <z>Contact us today to experience the UV Netware advantage in business solutions. Our team is ready to deeply analyze your unique needs and provide tailored, cost-effective services. Elevate your business with our commitment to excellence and innovation. <a href="https://uvnetware.com/contact" class="link">View Help Centre</a></z>
+      </div>
+  </div>
+</div>
+<div class="spacer"></div>
+  <script>
+    const greetings = ["Greetings", "Hey! We are", "Let's start with", "Welcome to", "Build with", "Transform your Business with", "Improve Business core"];
+    const randomTexts = ["SEO tools ", "Website development ", "Logo designing ", "Android/iOS apps ", "Desktop apps ", "Business server ", "Company registration ", "Domain buying/selling ", "External portable drives ", "Security level management ", "ML/AI backend ", "Financial services solutions ", "Help centre services ", "Firebase management training ", "Business consultant ", "AI expert course ", "Particular code solutions ", "Crypto mining Tools ", "Business marketing ", "Private API ", "AI content ", "Retool apps "];
+    const randomTextElement = document.getElementById("random-text");
+    const greetingElement = document.getElementById("greeting");
+    function typeRandomText() {
+      const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+      const randomIndex = Math.floor(Math.random() * randomTexts.length);
+      const randomText = randomTexts[randomIndex];
+      let i = 0;
+      function type() {
+        if (i < randomText.length) {
+          randomTextElement.innerHTML += randomText.charAt(i);
+          i++;
+          setTimeout(type, 145);
+        }
+      }
+      randomTextElement.innerHTML = "";
+      greetingElement.textContent = randomGreeting;
+      type();
+    }
+    typeRandomText();
+    setInterval(typeRandomText, 7500);
+  </script>
+  <script>
+        function repeatText(text, times) {
+            return new Array(times + 1).join(text);
+        }
+        var marquee = document.getElementById('scroll-txt0');
+        marquee.innerHTML = repeatText('Mobile App ₹7,500 Website ₹3,000 Logo ₹1,200 Company Registration ₹9,000 Desktop App ₹15,000 Artificial Intelligence ₹1,500 Fi ₹1,500 ', 175);
+        function repeatText(text, times) {
+            return new Array(times + 1).join(text);
+        }
+        var marquee = document.getElementById('scroll-txt1');
+        marquee.innerHTML = repeatText('UV Netware - Transforming Business Horizons, Core to Infinity ', 175);
+    </script>
+    <div class="whatsapp-button" onclick="openWhatsApp()">
+    <a id="whatsappLink" href="#" target="_blank">
+        <img src="https://cdn0.iconfinder.com/data/icons/social-media-2473/128/whatsapp_social_media_social_media_network-512.png" alt="WhatsApp UV Netware">
+    </a>
+  </div>
+  </div>
+  <script>
+    function generateRandomCode(length) {
+        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let randomCode = '';
+        for (let i = 0; i < length; i++) {
+            const randomIndex = Math.floor(Math.random() * characters.length);
+            randomCode += characters.charAt(randomIndex);
+        }
+        return randomCode;
+    }
+    function openWhatsApp() {
+        const randomCode = generateRandomCode(15);
+        const message = encodeURIComponent(`Hey! Ref:${randomCode}`);
+        const phoneNumber = '+917046371545';
+        const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;
+        document.getElementById('whatsappLink').href = whatsappLink;
+    }
+    </script>
+    <script>
+  const slider = document.querySelector('.slider');
+  function autoSlide() {
+    setInterval(() => {
+      const firstReview = document.querySelector('.review');
+      slider.style.transition = 'transform 0.5s ease-in-out';
+      slider.style.transform = 'translateX(' + (-firstReview.offsetWidth) + 'px)';
+      setTimeout(() => {
+        slider.style.transition = 'none';
+        slider.appendChild(firstReview);
+        slider.style.transform = 'translateX(0)';
+      }, 515);
+    }, 4500);
+  }
+  autoSlide();
+  </script>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Network</h2>
+        <ul class="footer-links">
+          <li><a href="https://washub.in">Washub</a></li>
+          <li><a href="https://viewei.com">Viewei</a></li>
+          <li><a href="https://hruvex.com">Hruvex</a></li>
+          <li><a href="https://nerror.app">Nerror</a></li>
+          <li><a href="https://incrypto.fi">Incrypto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>More</h2>
+        <ul class="footer-links">
+          <li><a href="/affiliate">Affiliate Program</a></li>
+          <li><a href="/career">Career</a></li>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/docs">Documents</a></li>
+          <li><a href="/fipolicy">Finance Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <u1><a href="mailto:hey@uvnetware.com">hey@uvnetware.com</a></u1>
+                </div>
+            <div class="contact-item">
+                <span class="icon"><i class="fas fa-phone"></i></span>
+                <u1><a href="tel:+917046371545">+91 70463 71545</a></u1>
+            </div>
+            <ul class="social-icons">
+                <li style="margin-right: 12px; "><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+      <u0>2016 - 2024 &copy; UV Netware™ Pvt Ltd. All rights reserved - All trademarks are properties of their respective owners.</u0>
+    </div>
+  </footer>
+</body>
+</html>
