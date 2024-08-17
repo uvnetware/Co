@@ -4,16 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#000000">
   <title>Page Not Found - UV Netware</title>
-  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/washubcom.appspot.com/o/PicsArt_04-14-03.53.46.png?alt=media&token=901bc958-8bdf-43d0-a217-ec6fa970da1b" type="image/png">
+  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/uvnetware.appspot.com/o/UV%20Netware%20Logo.png?alt=media&token=8ab3343d-a1d5-42a0-87b7-db2a132800fd" type="image/png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WVYSWLS8P3"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-WVYSWLS8P3');
-  </script>
   <style>
     body {
       margin: 0;
@@ -52,4 +45,10 @@
     <p>The page you are looking for might be in another galaxy. Let's get you back to <a href="https://www.uvnetware.com/">UV Netware</a></p>
   </div>
 </body>
+<script>
+  var currentPath = window.location.pathname;
+  if (currentPath.startsWith('/services/')) {
+      window.location.href = '/services';
+  }
+</script>
 </html>
