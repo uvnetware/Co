@@ -1,11 +1,6 @@
-
-# UVNetware.com - Providing innovative network solutions and IT services.
-# This file is optimized to help search engines understand the structure, content, and purpose of UVNetware.com.
-
 User-agent: *
-Crawl-delay: 10  # Ensuring a balance between server load and thorough indexing.
+Crawl-delay: 9
 
-# Disallowed Directories - Prevent non-essential pages from being indexed.
 Disallow: /cgi-bin/
 Disallow: /admin/
 Disallow: /login/
@@ -15,11 +10,9 @@ Disallow: /tmp/
 Disallow: /private/
 Disallow: /internal/
 
-# Disallowing access to internal search results to prevent duplicate content.
 Disallow: /search
 Disallow: /search-results/
 
-# Prevent indexing of dynamic content and unnecessary file types.
 Disallow: /*.php$
 Disallow: /*.cgi$
 Disallow: /*.asp$
@@ -28,16 +21,13 @@ Disallow: /*.inc$
 Disallow: /*.txt$
 Disallow: /*.log$
 
-# Disallow URLs with specific parameters to avoid duplicate content.
 Disallow: /*?sessionid=
 Disallow: /*?sort=
 Disallow: /*?ref=
 
-# Prevent indexing of paginated content.
 Disallow: /*page=
 Disallow: /*offset=
 
-# Allow key resources to be indexed to ensure proper rendering in search engines.
 User-agent: Googlebot
 Allow: /*.css$
 Allow: /*.js$
@@ -45,48 +35,33 @@ Allow: /images/
 Allow: /videos/
 Allow: /fonts/
 
-# Custom rules for specific crawlers.
 User-agent: Bingbot
-Crawl-delay: 5
+Crawl-delay: 3
 Allow: /
-
 User-agent: AhrefsBot
 Disallow: /
-
 User-agent: SemrushBot
 Disallow: /
-
 User-agent: ScreamingFrog
 Disallow: /
-
-# Block less relevant search engines from crawling the site.
 User-agent: Baiduspider
 Disallow: /
-
 User-agent: Yandex
 Disallow: /
 
-# Block access to WordPress admin, but allow AJAX requests.
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-# Include sitemaps for comprehensive indexing.
 Sitemap: https://www.uvnetware.com/sitemap.xml
 Sitemap: https://www.uvnetware.com/sitemap-images.xml
 Sitemap: https://www.uvnetware.com/sitemap-videos.xml
 
-# Security - Prevent sensitive files from being indexed.
 Disallow: /config.php
 Disallow: /core-config.php
 Disallow: /settings.ini
 
-# Clean up URL parameters to enhance SEO visibility.
 Clean-param: ref / # Clean up 'ref' parameter to avoid duplicate content.
 
-# Structured Data - Communicating the business purpose to search engines.
-# UVNetware.com specializes in:
-# - Networking Solutions: Advanced network infrastructure, security solutions, and cloud services.
-# - IT Services: Managed IT support, cybersecurity, and IT consulting.
-# - Innovation: Providing cutting-edge technology solutions for businesses to thrive in the digital era.
-
-# End of robots.txt
+- Networking Solutions: Advanced network infrastructure, security solutions, and cloud services.
+- IT Services: Managed IT support, cybersecurity, and IT consulting.
+- Innovation: Providing cutting-edge technology solutions for businesses to thrive in the digital era.
