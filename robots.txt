@@ -61,7 +61,4 @@ Disallow: /core-config.php
 Disallow: /settings.ini
 
 Clean-param: ref / # Clean up 'ref' parameter to avoid duplicate content.
-
-- Networking Solutions: Advanced network infrastructure, security solutions, and cloud services.
-- IT Services: Managed IT support, cybersecurity, and IT consulting.
-- Innovation: Providing cutting-edge technology solutions for businesses to thrive in the digital era.
+#UV Netware - Transform Business Horizons
