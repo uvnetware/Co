@@ -53,8 +53,8 @@ Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://www.uvnetware.com/sitemap.xml
-Sitemap: https://www.uvnetware.com/sitemap-images.xml
-Sitemap: https://www.uvnetware.com/sitemap-videos.xml
+Sitemap: https://www.uvnetware.com/sitemap-raw.xml
+Sitemap: https://www.uvnetware.com/sitemap-services.xml
 
 Disallow: /config.php
 Disallow: /core-config.php
