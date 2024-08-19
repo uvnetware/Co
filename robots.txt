@@ -54,7 +54,7 @@ Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://www.uvnetware.com/sitemap.xml
 Sitemap: https://www.uvnetware.com/sitemap-raw.xml
-Sitemap: https://www.uvnetware.com/sitemap-services.xml
+Sitemap: https://www.uvnetware.com/uvns.txt
 
 Disallow: /config.php
 Disallow: /core-config.php
