@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
 https://uvnetware.com/services/custom-software
 https://uvnetware.com/services/digital-marketing
 https://uvnetware.com/services/e-commerce-solutions
@@ -1546,4 +1543,3 @@ https://uvnetware.com/services/secure-arch
 https://uvnetware.com/services/software-integ
 https://uvnetware.com/services/it-consul
 https://uvnetware.com/services/ai-apps
-</urlset>
