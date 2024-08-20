@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "UV Netware",
+  "alternateName": "UV Netware Pvt Ltd",
+  "url": "https://uvnetware.com",
+  "logo": "https://firebasestorage.googleapis.com/v0/b/uvnetware.appspot.com/o/UV%20Netware%20Logo.png?alt=media&token=8ab3343d-a1d5-42a0-87b7-db2a132800fd",
+  "foundingDate": "2016",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Umesh Vadhel"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "UVn Building",
+    "addressLocality": "Rajkot",
+    "addressRegion": "Gujarat",
+    "postalCode": "360001",
+    "addressCountry": "IN"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 70463 71545",
+      "contactType": "Help Centre",
+      "email": "hey@uvnetware.com",
+      "availableLanguage": ["English", "Hindi", "Gujarati"],
+      "areaServed": "IN"
+    }
+  ],
+  "sameAs": [
+    "https://twitter.com/uvnetware",
+    "https://youtube.com/@uvnetware",
+    "https://www.instagram.com/uvnetware",
+    "https://www.threads.net/@uvnetware"
+  ],
+  "department": [
+    {
+      "@type": "Organization",
+      "name": "Business Services",
+      "url": "https://uvnetware.com/services"
+    }
+  ],
+  "knowsAbout": [
+    "Software Development",
+    "Digital Marketing",
+    "Finance Consulting",
+    "Business Services",
+    "Website Development",
+    "Mobile Development",
+    "Company Documents"
+  ],
+  "slogan": "Transform Business Horizons"
+}
