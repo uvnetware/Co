@@ -1,0 +1,317 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>Articles - UV Netware</title>
+  <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/washubcom.appspot.com/o/PicsArt_04-14-03.53.46.png?alt=media&token=901bc958-8bdf-43d0-a217-ec6fa970da1b" type="image/png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.5.0/css/hover-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit&display=swap">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TVMMJVRX');</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WVYSWLS8P3"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WVYSWLS8P3');
+  </script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+      background: linear-gradient(-115deg, #000, #000, #304ffe);
+      color: #000;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(30deg, rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575), #304ffe);
+      color: #fff;
+      padding-top: 9.75px;
+      margin: 12.75px;
+      border-radius: 15px;
+      padding-bottom: 9.75px;
+      padding-left: 15px;
+      padding-right: 21px;
+      display: grid;
+      font-weight: Bold;
+      grid-template-columns: 1fr 3fr;
+      gap: 15px;
+      align-items: center;
+      z-index: 1000;
+      border-bottom: 3.75px solid #304ffe;
+    }
+    nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+    }
+    nav ul li {
+      margin-right: 21.75px;
+      position: relative;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      position: relative;
+      font-weight: 475;
+      font-size: 1.075rem;
+      letter-spacing: 1px;
+      transition: color 0.3s ease;
+    }
+    nav a:after {
+      content: '';
+      position: absolute;
+      bottom: -7.45px;
+      left: 0;
+      width: 0;
+      border-radius: 12px;
+      height: 1.75px;
+      background-color: #00bfa5;
+      transition: width 0.3s ease;
+    }
+    nav a:hover {
+      color: #00bfa5;
+      animation: fadeInUp 0.3s;
+    }
+    nav a:hover:after {
+      width: 100%;
+    }
+    .services:hover .sub-menu {
+      display: block;
+      animation: fadeInDown 0.45s;
+    }
+    .sub-menu {
+      display: none;
+      position: absolute;
+      padding-bottom: 9px;
+      background-color: rgba(0, 0, 0, 0.575);
+      box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(4.75px);
+      border-radius: 12px;
+      animation: bounceIn 0.5s;
+      width: 215px;
+      border-bottom: 3px solid #304ffe;
+    }
+    .sub-menu li {
+      display: block;
+      padding: 9px;
+    }
+    .sub-menu li:last-child {
+      border-bottom: none;
+    }
+    footer {
+      background: linear-gradient(-90deg, #212121, #000);
+      padding-bottom: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .footer-section {
+      flex: 1;
+      margin: 12px;
+      text-align: left;
+      animation: slideIn 1s ease-in-out;
+    }
+    .footer-section h2 {
+      color: #304ffe;
+      font-size: 1.45em;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 12px;
+      margin-right: 15px;
+      font-family: 'Silkscreen', monospace;
+    }
+    .footer-links {
+      list-style-type: none;
+      padding: 0;
+    }
+    .social-icons {
+      padding: 0px;
+      display: flex;
+    }
+    .icon {
+      margin-top: 1.45px;
+      padding: 0px;
+    }
+    .footer-links li, .social-icons li {
+      position: relative;
+      margin-bottom: 7.5px;
+      overflow: hidden;
+    }
+    .footer-links a, .social-icons a {
+      color: #fff;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.315s ease;
+    }
+    .footer-links a:before, .social-icons a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      bottom: 0px;
+      background-color: #00bfa5;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      transition: transform 0.315s ease;
+    }
+    .footer-links a:hover, .social-icons a:hover {
+      color: #00bfa5;
+    }
+    .footer-links a:hover:before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    .copyright {
+      margin-top: 12px;
+      color: #757575;
+      font-size: 12px;
+      animation: fadeIn 1s ease-in-out;
+      text-align: center;
+    }
+    @media screen and (max-width: 175px) {
+      .footer-container {
+        flex-direction: column;
+      }
+      .footer-section {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .contact-info {
+        color: #304ffe;
+    }
+    .contact-info p {
+        margin: 0;
+        line-height: 1.15;
+    }
+    .contact-info .icon {
+        margin-right: 15px;
+    }
+    .contact-info .contact-item {
+        display: flex;
+        margin-bottom: 9px;
+    }
+    .contact-info a {
+        text-decoration: none;
+        color: #304ffe;
+        font-size: 1em;
+        transition: color 0.3s ease-in-out;
+    }
+    .contact-info a:hover{
+        color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://firebasestorage.googleapis.com/v0/b/washubcom.appspot.com/o/PicsArt_04-14-03.53.46.png?alt=media&token=901bc958-8bdf-43d0-a217-ec6fa970da1b" alt="UV Netware" style="width: 45px; height: 45px;">
+    </div>
+    <nav>
+      <ul>
+        <li class="services">
+          <a href="https://www.uvnetware.com/services" class="hvr-bob">Services</a>
+          <ul class="sub-menu animate__animated animate__fadeOut">
+            <li><a href="#">Business Marketing</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+            <li><a href="#">Finance Services</a></li>
+            <li><a href="#">Logo Services</a></li>
+            <li><a href="#">Register Company</a></li>
+            <li><a href="#">Software</a></li>
+            <li><a href="#">Need Website</a></li>
+        <li><a href="#">More Solutions</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.uvnetware.com/fi" class="hvr-bob">Payment</a></li>
+        <li><a href="https://www.uvnetware.com/contact" class="hvr-bob">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h2>Network</h2>
+        <ul class="footer-links">
+          <li><a href="https://washub.in">Washub</a></li>
+          <li><a href="https://viewei.com">Viewei</a></li>
+          <li><a href="https://hruvex.com">Hruvex</a></li>
+          <li><a href="https://nerror.app">Nerror</a></li>
+          <li><a href="https://incrypto.fi">Incrypto</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>More</h2>
+        <ul class="footer-links">
+          <li><a href="https://www.uvnetware.com/affiliate">Affiliate Program</a></li>
+          <li><a href="https://www.uvnetware.com/career">Career</a></li>
+          <li><a href="https://www.uvnetware.com/articles">Articles</a></li>
+          <li><a href="https://www.uvnetware.com/docs">Documents</a></li>
+          <li><a href="https://www.uvnetware.com/fipolicy">Finance Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <u1><a href="mailto:hey@uvnetware.com">hey@uvnetware.com</a></u1>
+                </div>
+            <div class="contact-item">
+                <span class="icon"><i class="fas fa-phone"></i></span>
+                <u1><a href="tel:+917046371545">+91 70463 71545</a></u1>
+            </div>
+            <ul class="social-icons">
+                <li style="margin-right: 12px; "><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li style="margin-right: 12px;"><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+      <u0>2016 - 2024 &copy; UV Netware™ Pvt Ltd. All rights reserved - All trademarks are properties of their respective owners.</u0>
+    </div>
+  </footer>
+</body>
+</html>
