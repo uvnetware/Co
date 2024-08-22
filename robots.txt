@@ -60,5 +60,4 @@ Disallow: /config.php
 Disallow: /core-config.php
 Disallow: /settings.ini
 
-Clean-param: ref / # Clean up 'ref' parameter to avoid duplicate content.
 #UV Netware - Transform Business Horizons
