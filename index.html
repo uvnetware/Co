@@ -61,7 +61,8 @@
       "founders": [
         {
           "@type": "Person",
-          "name": "Mr. Umesh Vadhel"
+          "name": "Mr. Umesh Vadhel",
+          "jobTitle": "CEO"
         }
       ],
       "address": {
@@ -72,28 +73,19 @@
         "postalCode": "360001",
         "addressCountry": "IN"
       },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91 70463 71545",
-          "contactType": "Help Centre",
-          "email": "hey@uvnetware.com",
-          "availableLanguage": ["English", "Hindi", "Gujarati"],
-          "areaServed": "IN"
-        }
-      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": ["+91 70463 71545", "+91 70467 57145"],
+        "contactType": "Help Centre",
+        "email": "hey@uvnetware.com",
+        "availableLanguage": ["English", "Hindi", "Gujarati"],
+        "areaServed": "IN"
+      },
       "sameAs": [
         "https://twitter.com/uvnetware",
         "https://youtube.com/@uvnetware",
         "https://www.instagram.com/uvnetware",
         "https://www.threads.net/@uvnetware"
-      ],
-      "department": [
-        {
-          "@type": "Organization",
-          "name": "Business Services",
-          "url": "https://uvnetware.com/services"
-        }
       ],
       "knowsAbout": [
         "Software Development",
@@ -102,9 +94,17 @@
         "Business Services",
         "Website Development",
         "Mobile Development",
-        "Company Documents"
+        "Company Documents",
+        "AI Research"
       ],
-      "slogan": "Transform Business Horizons"
+      "slogan": "Transform Business Horizons",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://uvnetware.com/services/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ]
     }
   </script>
   <style>
