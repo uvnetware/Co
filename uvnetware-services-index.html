@@ -1,0 +1,244 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            padding-top: 75px;
+            font-family: 'Poppins', sans-serif;
+            background: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 45px 0;
+            position: relative;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 45px;
+        }
+        .card {
+            width: 315px;
+            padding: 21px;
+            background: #151515;
+            border-radius: 15px;
+            box-shadow: 0 9px 21px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 21px 45px rgba(48, 79, 254, 0.3);
+        }
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 191, 165, 0.4), rgba(48, 79, 254, 0.4));
+            filter: blur(15px);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            z-index: -1;
+        }
+        .card:hover::before {
+            opacity: 1;
+        }
+        .icon {
+            font-size: 51px;
+            color: #00bfa5;
+            margin-bottom: 21px;
+            transition: color 0.3s ease;
+        }
+
+        .card:hover .icon {
+            color: #fff;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            margin: 15px 0;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        p {
+            color: #aaa;
+            line-height: 1.75;
+            font-size: 15px;
+        }
+        .card:hover .title {
+            color: #fff;
+        }
+        @media (max-width: 751px) {
+            h2 {
+                font-size: 2.51rem;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 45px;
+            color: #304ffe;
+            text-transform: uppercase;
+            font-family: 'Silkscreen', monospace;
+            letter-spacing: 1px;
+            font-size: 1.75rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        h2::before {
+            content: '';
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(45deg, #304ffe, #00bfa5);
+            border-radius: 100%;
+            transform: translate(-50%, -50%);
+            opacity: 0.15;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Our Services</h2>
+        <section class="services">
+            <div class="card">
+                <div class="icon"><i class="fa fa-code"></i></div>
+                <div class="title">Web Development</div>
+                <p>We build high-performance websites with sleek interfaces, optimized for user experience.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-mobile"></i></div>
+                <div class="title">App Development</div>
+                <p>Developing modern, scalable apps for all platforms with a seamless experience.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-desktop"></i></div>
+                <div class="title">Desktop Software Development</div>
+                <p>Custom software solutions for desktop systems designed for speed and efficiency.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-cogs"></i></div>
+                <div class="title">Artificial Intelligence</div>
+                <p>Innovative AI solutions to streamline operations and enhance decision-making processes.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-credit-card"></i></div>
+                <div class="title">Payment Gateway Solutions</div>
+                <p>Secure and reliable payment integrations for your business transactions.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
+                <div class="title">Machine Learning</div>
+                <p>Data-driven machine learning solutions that unlock the power of predictive analysis.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <div class="title">Email Marketing</div>
+                <p>Targeted email campaigns designed to reach the right audience and boost engagement.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-bullhorn"></i></div>
+                <div class="title">PR Management</div>
+                <p>Comprehensive PR strategies to manage brand reputation and public relations.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-facebook"></i></div>
+                <div class="title">Social Media Management</div>
+                <p>End-to-end management of social platforms to drive brand growth and engagement.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-line-chart"></i></div>
+                <div class="title">SEO</div>
+                <p>Advanced search engine optimization strategies to increase visibility and drive traffic.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-mobile"></i></div>
+                <div class="title">App Development - Android & iOS</div>
+                <p>End-to-end app solutions for Android and iOS platforms, ensuring a smooth experience.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-plug"></i></div>
+                <div class="title">API Services</div>
+                <p>Custom APIs to enhance connectivity and streamline business processes.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-database"></i></div>
+                <div class="title">CRM Software Development</div>
+                <p>Tailored CRM software to improve customer relationship management and drive growth.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-calculator"></i></div>
+                <div class="title">CA Services for Business</div>
+                <p>Professional CA services to manage your business finances and compliance requirements.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-line-chart"></i></div>
+                <div class="title">Finance Management</div>
+                <p>Effective financial management solutions to optimize cash flow and profitability.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-server"></i></div>
+                <div class="title">Database Server</div>
+                <p>Robust database server solutions for managing and storing critical business data.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-cutlery"></i></div>
+                <div class="title">FSSAI License</div>
+                <p>Assistance with FSSAI license registration to ensure your food business is compliant.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                <div class="title">Logo Design Services</div>
+                <p>Creative logo design solutions to give your brand a unique and professional identity.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-android"></i></div>
+                <div class="title">ASO</div>
+                <p>App Store Optimization to improve your app's ranking and visibility across platforms.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-file-text"></i></div>
+                <div class="title">GST Services</div>
+                <p>Comprehensive GST services to ensure your business stays tax compliant.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-globe"></i></div>
+                <div class="title">Import Export License Service</div>
+                <p>Help with obtaining Import Export Licenses to expand your business globally.</p>
+            </div>
+            <div class="card">
+                <div class="icon"><i class="fa fa-briefcase"></i></div>
+                <div class="title">Company Registration</div>
+                <p>Assistance in registering your business and complying with legal requirements.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
