@@ -776,14 +776,15 @@
         .cardz {
             width: 315px;
             padding: 21px;
-            background: #151515;
-            border-radius: 15px;
+            background: linear-gradient(-115deg, #151515, #000);
+            border-radius: 21px;
             box-shadow: 0 9px 21px rgba(0, 0, 0, 0.3);
             position: relative;
             overflow: hidden;
             cursor: pointer;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             text-align: center;
+            border: 1px solid #212121;
         }
 
         .cardz:hover {
@@ -832,7 +833,7 @@
             color: #fff;
         }
 
-        @media (max-width: 751px) {
+        @media (max-width: 775px) {
             .cardz {
                 width: 100%;
             }
