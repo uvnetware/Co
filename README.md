@@ -1,5 +1,6 @@
 # UV Netware - Transform Business Horizons
 
+## Availability
 ### Africa
 - **South Africa**: Software development, IT outsourcing, cloud services
 
@@ -40,7 +41,6 @@
 ### Oceania
 - **Australia**: Cloud, cybersecurity, digital transformation  
 - **New Zealand**: Software, cloud, IT services
-UV Netware is committed to delivering **innovative software solutions, cutting-edge AI, cloud computing, SaaS, cybersecurity, and digital transformation services** worldwide. Connect with us to transform your business horizons.
 
 ## Services
 
@@ -63,3 +63,17 @@ UV Netware provides **end-to-end technology solutions**, including:
 
 6. **Database Design & Management Solutions**  
    Robust solutions for designing, managing, and storing critical business data.
+
+## Contact
+
+**Email**: [Email](mailto:contact@uvnetware.com)  
+**GitHub**: [Website](https://uvnetware.com)  
+
+Connect with our team today to **transform your business horizons**.
+
+> **LEGAL NOTICE**
+>
+> This repository and its contents are the intellectual property of **UV Netware Private Limited**.  
+> **Unauthorized use, reproduction, distribution, or modification of this repository is strictly prohibited.**  
+> Accessing or utilizing this repository without prior written permission from **UV Netware’s legal authority** may result in **civil and/or criminal legal action** under applicable laws.  
+> By using this repository, you acknowledge and agree to comply with these terms.
